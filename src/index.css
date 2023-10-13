@@ -1,0 +1,43 @@
+/* https://fonts.google.com/specimen/Poppins */
+/*add @tailwind base; @tailwind components; @tailwind utilities;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@200;300;400;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*add these css properties afterwards*/
+:root{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: white;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+li:hover::before{
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 100%;
+  background: #2a68ff;
+  right: 0;
+  bottom: -10px;
+  color: #2a68ff;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+.card{
+  background: url(/src/assets/testimonials.png);
+}
+
+/*I commented all of this out because I shall see how it comes into play at a later stage -- Be patient*/
