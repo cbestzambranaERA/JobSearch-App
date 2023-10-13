@@ -22,7 +22,7 @@ const Data = [
     image: logo1,
     title: 'Software Dev',
     time: 'Now',
-    location: 'Winsted, CT 06098',
+    location: 'Winsted, CT',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, perspiciatis!',
     company: 'Vacor Leaf Co.'
   },
@@ -31,7 +31,7 @@ const Data = [
     image: logo2,
     title: 'UI Designer',
     time: '12Hrs',
-    location: 'Hartford, CT 06101',
+    location: 'Hartford, CT',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, perspiciatis!',
     company: 'Heart DesignX Co.'
   },
@@ -40,7 +40,7 @@ const Data = [
     image: logo3,
     title: 'Software Eng',
     time: '8Hrs',
-    location: 'Farmington, CT 06030',
+    location: 'Farmington, CT',
     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, perspiciatis!',
     company: 'Voters Now Co.'
   },

@@ -18,3 +18,12 @@ const App = () => {
 }
 
 export default App
+
+
+/*
+npm create vite@latest
+project name: jobsearch-app
+cd jobsearch-app
+npm install
+npm run dev
+*/
