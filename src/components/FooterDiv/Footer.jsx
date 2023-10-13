@@ -7,7 +7,7 @@ import {AiOutlineTwitter} from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <div className='footer p-[5rem] mb-4 bg-blueColor rounded-[10px] gap-[8] grid grid-cols-5 m-auto items-start justify-center'>
+    <div className='footer p-[5rem] mb-4 bg-blueIshColor rounded-[10px] gap-[8] grid grid-cols-5 m-auto items-start justify-center'>
 
       <div>
         <div className='logoDiv'>
@@ -72,11 +72,11 @@ const Footer = () => {
           </small>
           <div className='icons flex gap-4 py-[1rem]'>
             <AiFillInstagram className='bg-white p-[1.8px] h-[35px] w-[35px] rounded-full 
-            icon text-blueColor'/>
+            icon text-blueIshColor'/>
             <BsFacebook className='bg-white p-[1.8px] h-[35px] w-[35px] rounded-full 
-            icon text-blueColor'/>
+            icon text-blueIshColor'/>
             <AiOutlineTwitter className='bg-white p-[1.8px] h-[35px] w-[35px] rounded-full 
-            icon text-blueColor'/>
+            icon text-blueIshColor'/>
           </div>
 
         </div>

@@ -58,17 +58,17 @@ const Value = () => {
 
       </div>
 
-      <div className='card mt-[2rem] flex justify-between bg-blueColor p-[5rem] rounded [10px]'>
+      <div className='card mt-[2rem] flex justify-between bg-blueIshColor p-[5rem] rounded [10px]'>
 
         <div>
-          <h1 className='text-blueColor text-[30px] font-bold'>
+          <h1 className='text-blueIshColor text-[30px] font-bold'>
             Ready to switch to a new career?
           </h1>
           <h2 className='text-textColor text-[25px] font-bold'>Let's get started!</h2>
         </div>
 
           <button className='border-[2px] rounded-[10px] py-[4px] px-[50px] text-[18px]
-          font-semibold text-blueColor hover:bg-white border-blueColor'>
+          font-semibold text-blueIshColor hover:bg-white border-blueIshColor'>
             Get Started
           </button>
       </div>
